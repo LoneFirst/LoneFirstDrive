@@ -1,0 +1,4 @@
+<?php
+header('content-type:image/jpeg');
+header('Content-Disposition: attachment; filename="²âÊÔÎÄ¼þ.png"');
+readfile('test.file');
